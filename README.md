@@ -19,3 +19,14 @@ $ radtest bob test 127.0.0.1 0 testing123
 ```
 docker stop my-radius
 ```
+## Clean up all data
+```
+ubuntu:~$ docker system df   
+TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          2         1         243MB     243MB (99%)
+Containers      1         1         1.608kB   0B (0%)
+Local Volumes   0         0         0B        0B
+Build Cache     0         0         0B        0B
+
+docker image prune -a
+```
