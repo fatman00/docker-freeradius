@@ -3,7 +3,8 @@ freeradius for docker and Lab
 
 ## Build the container
 ```
-$ git clone https://github.com/fatman00/docker-freeradius.git .
+$ git clone https://github.com/fatman00/docker-freeradius.git
+$ cd docker-freeradius
 $ docker build -t my-radius-image -f Dockerfile .
 ```
 Start the container
