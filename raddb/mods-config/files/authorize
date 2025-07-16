@@ -1,2 +1,4 @@
-bob	Cleartext-Password := "test"
-cisco	Cleartext-Password := "cisco"
+bob	    Cleartext-Password := "test"
+cisco	  Cleartext-Password := "cisco"
+        Service-Type = NAS-Prompt-User,
+        Cisco-AVPair = "shell:priv-lvl=15"
